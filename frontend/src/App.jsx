@@ -174,7 +174,7 @@ async function downloadPDFReport(data) {
   doc.setFont("courier","bold"); doc.setFontSize(7); doc.setTextColor("#4a5568");
   doc.text("RESUMEIX  ·  AI-POWERED RESUME INTELLIGENCE", M + 4, y); y += 10;
   doc.setFontSize(22); doc.setTextColor("#dde4f0"); doc.text("Analysis Report", M + 4, y); y += 9;
-  doc.setFontSize(9); doc.setTextColor("#00ff88"); doc.text("Powered by Groq AI", M + 4, y); y += 16;
+  doc.setFontSize(9); doc.setTextColor("#00ff88"); doc.text("Built by Arjit Gupta", M + 4, y); y += 16;
   doc.setDrawColor("#1a1a32"); doc.setLineWidth(0.4); doc.line(M + 4, y, W - M, y); y += 8;
   doc.setFont("courier","normal"); doc.setFontSize(8); doc.setTextColor("#4a5568");
   doc.text("Resume:", M + 4, y); doc.setTextColor("#dde4f0"); doc.text(data.name, M + 22, y); y += 5.5;
@@ -407,7 +407,7 @@ function Landing({ onNav }) {
       </div>
 
       <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit,minmax(130px,1fr))", gap: 10, maxWidth: 620, margin: "0 auto 3.5rem", padding: "0 1.5rem" }}>
-        {[["AI Validated","Every upload first"],["Real Analysis","Groq AI powered"],["4D Scoring","Full breakdown"],["PDF Export","Download report"]].map(([n,l]) => (
+        {[["AI Validated","Every upload first"],["Real Analysis","Deep AI insights"],["4D Scoring","Full breakdown"],["PDF Export","Download report"]].map(([n,l]) => (
           <div key={n} style={{ background: C.bgCard, border: `1px solid ${C.border}`, borderRadius: 6, padding: "16px 12px", textAlign: "center" }}>
             <div style={{ fontSize: 13, fontWeight: 800, color: C.accent, marginBottom: 4 }}>{n}</div>
             <div style={{ fontSize: 10, color: C.muted }}>{l}</div>
@@ -1055,7 +1055,7 @@ export default function App() {
       <div className="fade-in" key={page}>{pages[page]}</div>
       <footer style={{ borderTop: `1px solid ${C.border}`, padding: "24px 24px 28px", textAlign: "center" }}>
         <div style={{ fontSize: 10, color: C.muted, letterSpacing: "1px", marginBottom: 10 }}>
-          RESUMEIX · GROQ AI · AI-POWERED RESUME INTELLIGENCE
+          RESUMEIX · BUILT BY ARJIT GUPTA · AI-POWERED RESUME INTELLIGENCE
         </div>
         <div style={{ fontSize: 11, color: C.dim, marginBottom: 8 }}>
           Built by <span style={{ color: C.accent, fontWeight: 700 }}>Arjit Gupta</span>
