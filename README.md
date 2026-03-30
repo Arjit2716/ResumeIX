@@ -24,8 +24,8 @@ Upload a resume PDF, paste a job description, and get instant AI-powered analysi
 
 ```bash
 # Clone
-git clone https://github.com/Arjit2716/Resume-Analyzer.git
-cd Resume-Analyzer
+git clone https://github.com/Arjit2716/resume_ix.git
+cd resume_ix
 
 # Backend
 python -m venv .venv && .venv\Scripts\activate

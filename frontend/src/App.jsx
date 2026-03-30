@@ -1062,7 +1062,7 @@ export default function App() {
         <div style={{ fontSize: 11, color: C.dim, marginBottom: 8 }}>
           Built by <span style={{ color: C.accent, fontWeight: 700 }}>Arjit Gupta</span>
         </div>
-        <a href="https://github.com/Arjit2716/Resume-Analyzer" target="_blank" rel="noopener noreferrer" style={{ fontSize: 10, color: C.muted, textDecoration: "none", border: `1px solid ${C.border}`, padding: "5px 14px", borderRadius: 3, transition: "all 0.2s", display: "inline-block", marginRight: 8 }}
+        <a href="https://github.com/Arjit2716/resume_ix" target="_blank" rel="noopener noreferrer" style={{ fontSize: 10, color: C.muted, textDecoration: "none", border: `1px solid ${C.border}`, padding: "5px 14px", borderRadius: 3, transition: "all 0.2s", display: "inline-block", marginRight: 8 }}
           onMouseOver={(e) => { e.currentTarget.style.borderColor = C.accent; e.currentTarget.style.color = C.accent; }}
           onMouseOut={(e) => { e.currentTarget.style.borderColor = C.border; e.currentTarget.style.color = C.muted; }}
         >
